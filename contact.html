@@ -19,14 +19,6 @@
                 textarea{
                     width:100%;
                 }
-
-                .button{
-                    font-size:20px;
-                    color:white;
-                    background:#4aaaa5;
-                    font-family:"Georgia",Times New Roman,Times,serif;
-                    padding:10px 20px;
-                }
         </style>
     </head>
 
@@ -83,7 +75,11 @@
             <br>
             <textarea id ="message" name="message" rows="15" cols="40" ></textarea>
             <br>
-            <button class="button">Submit</button>
+            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+                    <label class="btn btn-secondary active">
+                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Submit
+                    </label>
+            </div>
           </form>
         </div>
         </div>

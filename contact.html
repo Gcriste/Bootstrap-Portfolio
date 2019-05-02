@@ -19,84 +19,85 @@
                 textarea{
                     width:100%;
                 }
+           
         </style>
     </head>
 
     <body>
+        <!--creates grid-->
         <div class = "container">
-                <header>
-                        <div class = "row">
-                            <div class= "col-12">
-                                <div class = "mainhead">
-                                        <h1 class = "text-center"> Griffin Criste </h1>
-                                </div>
-                            </div>
-                        </div>  
-                    </header>
+            <header>
+                <!--row for main header-->
+                <div class = "row">
+                    <div class= "col-12">
+                        <div class = "mainhead">
+                            <h1 class = "text-center"> Griffin Criste </h1>
+                        </div>
+                    </div>
+                </div>  
+            </header>
+            <!--row for navbar-->
+                <div class = "row">
+                    <div class = "col-12">
+                        <div class ="navigation">
+                            <nav class="navbar navbar-light bg-light">
+                                <a class="navbar-brand" href="index.html">About</a>
+                                <a class="navbar-brand" href="portfolio.html">Portfolio</a>
+                                <a class="navbar-brand" href="contact.html">Contact</a>
+                            </nav>
+                        </div>
+                    </div>      
+                </div>
 
-                    <div class = "row">
-            
-                            <div class = "col-12">
-                                 <div class ="navigation">
-                                    <nav class="navbar navbar-light bg-light">
-                                        <a class="navbar-brand" href="index.html">About</a>
-                                        <a class="navbar-brand" href="portfolio.html">Portfolio</a>
-                                        <a class="navbar-brand" href="contact.html">Contact</a>
-                                    </nav>
-                                 </div>
-                            </div>
-                       
-            </div>
-        
-              
-              <!-- main content id -->
-        <section>
-
+            <!--row for subheader-->
            <div class = "row">
                 <div class = "col-12">
-                <h2 class = "secondhead">Contact</h2>
-                <hr>
+                    <h2 class = "secondhead">Contact</h2>
+                    <hr>
+                </div>
             </div>
-        </div>
-         
 
+            
+       <!--section for main content-->    
+    <section>  
+        <!-- row for forms and textboxes-->
         <div class = "row">
             <div class = "col-12">
-        <form >
-            Name
-            <br>
-            <input type="text" name="name" placeholder="Name">
-            <br>
-            Email
-            <br>
-            <input type="text" name="email" placeholder="Email">
-            <br>
-            Message
-            <br>
-            <textarea id ="message" name="message" rows="15" cols="40" ></textarea>
-            <br>
-            <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <form >
+                 Name
+                <br>
+                <input type="text" name="name" placeholder="Name">
+                <br>    
+                Email
+                <br>
+                <input type="text" name="email" placeholder="Email">
+                <br>
+                Message
+                <br>
+                <textarea id ="message" name="message" rows="10" cols="30" ></textarea>
+                <br>
+                <!--submit button-->
+                <div class="btn-group btn-group-toggle" data-toggle="buttons">
                     <label class="btn btn-secondary active">
-                      <input type="radio" name="options" id="option1" autocomplete="off" checked> Submit
+                        <input type="radio" name="options" id="option1" autocomplete="off" checked> Submit
                     </label>
+                 </div>
+            </form>
             </div>
-          </form>
         </div>
-        </div>
+    </section>
 
-
-        </section>
+        <!--row for footer-->
         <div class = "row">
         
             <div class = "col-12">
-            <footer class = "text-center">
-                Copyright  &copy;
-            </footer>   
-         </div>
+                <footer class = "text-center">
+                    Copyright  &copy;
+                </footer>   
+            </div>
         </div>
-        </section>
 
-
+<!--closes grid-->
     </div>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

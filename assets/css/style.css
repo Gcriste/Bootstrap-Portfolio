@@ -1,21 +1,33 @@
+
 .mainhead{
     font-family:"Georgia",Times New Roman,Times,serif;
     color: #ffffff;
-    background: #4aaaa5;
-    
+    background: #65b8bf;
+    margin-bottom:-5px;
 }
 
 .navigation{
     background:#ffffff;
     font-family: "Georgia",Times New Roman,Times,serif;
    color: #777777;
-   text-align:center;
+   
 }
+.social-media{
+    font-family: "Georgia",Times New Roman,Times,serif;
+    color:#777777;
+    font-size:24px;
+
+}
+a:hover{
+    font-style:italic;
+        
+    }
+    
 
 .secondhead{
-    background:#ffffff;
-    color:#4aaaa5;
+    color:#65b8bf;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    margin-top:10px;
     
 }
 
@@ -27,10 +39,12 @@ color:#777777;
 footer{
     background:#666666;
     text-align:center;
-    border-top:8px solid #4aaaa5;
+    border-top:8px solid #65b8bf;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     padding-top:10px;
-    margin-top:10px
+    padding-bottom:10px;
+    margin-top:10px;
+    color:#fdfdfd;
 
 }
 
@@ -38,7 +52,7 @@ footer{
     z-index:1;
     font-family:'Georgia', Times, Times New Roman, serif;
     color:#ffffff;
-    background: #4aaaa5;
+    background: #65b8bf;
     font-size:24px;
     width:100%;
     text-align:center;
@@ -50,3 +64,10 @@ img {
     max-width: 100%;
   }
   
+form{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+
+body{ background-image: url(gravel.png);
+}
+

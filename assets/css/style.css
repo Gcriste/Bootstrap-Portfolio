@@ -11,6 +11,7 @@
     font-family: "Georgia",Times New Roman,Times,serif;
    color: #777777;
    
+   
 }
 .social-media{
     font-family: "Georgia",Times New Roman,Times,serif;
@@ -54,7 +55,7 @@ footer{
     color:#ffffff;
     background: #65b8bf;
     font-size:24px;
-    width:100%;
+    max-width:100%;
     text-align:center;
     padding: 10px;
 

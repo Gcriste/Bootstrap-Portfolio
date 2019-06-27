@@ -2,35 +2,22 @@
 
 <html>
 
-
 <head>
-    <title>Griffins Contact Info</title>
+    <title>Griffins Basic Profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Mali&display=swap" rel="stylesheet">
-    <style>
-        input[type=text] {
-            width: 100%;
-            padding: 10px;
-            margin: 2px;
-        }
-
-        textarea {
-            width: 100%;
-        }
-    </style>
 </head>
 
 <body>
 
     <header>
-        <!--row for main header-->
         <div class="row">
             <div class="col-2">
                 <div class="mainhead">
-                    <h1>Contact</h1>
+                    <h1>About Me</h1>
                 </div>
             </div>
             <div class="col-10">
@@ -41,24 +28,24 @@
         </div>
     </header>
 
-    <main>
-    <!--row for navbar-->
-    <!--creates grid-->
+<main>
+    <!--Making the Grid for whole page-->
     <div class="container">
-            <!--Row for Subheader-->
-            <div class="row">
-                <div class="col-4">
-    
-                </div>
-                <div class="col-1"></div>
-                <!--Row for paragraphs that spans all the way across for mobile, 4 columnsfor larger devices-->
-                <div class="col-4 col-sm-4">
-                    <p class="paragraph"> Web developer, coder, friend, dog dad.
-                    </p>
-                </div>
+        <!--Row for Subheader-->
+        <div class="row">
+            <!--All the way across-->
+            <div class="col-4"></div>
+
+
+            <div class="col-1"></div>
+            <!--Row for paragraphs that spans all the way across for mobile, 4 columnsfor larger devices-->
+            <div class="col-4 col-sm-4">
+                <p class="paragraph"> Web developer, coder, friend, dog dad.
+                </p>
             </div>
+        </div>
 
-
+        <!--row for navbar-->
         <div class="row">
             <div class="col-2">
                 <div class="navigation">
@@ -70,55 +57,56 @@
                     </nav>
                 </div>
             </div>
-        </div>
 
+            <div class="col-10">
+                <div class="about-me">
+                    <nav class="navbar navbar-light bg-light">
+                        <a href="assets/images/ Resume 2.pdf"> Resume </a>
+                        <p>I am a graduate from Belmont University with a degree in Business.</p>
+                        <p> I am a tutor for middle and high school kids.</p>
+                        <p> Email: GriffinCriste@gmail.com</p>
+                    </nav>
+                </div>
+
+            </div>
+        </div>
 
 
 
 
         <!--section for main content-->
         <section>
-            <!-- row for forms and textboxes-->
+
+            <!--Row for social media links and other pargraph-->
             <div class="row">
-                <div class="col-12">
-                    <form>
-                        Name
-                        <br>
-                        <input type="text" name="name" placeholder="Name">
-                        <br>
-                        Email
-                        <br>
-                        <input type="text" name="email" placeholder="Email">
-                        <br>
-                        Message
-                        <br>
-                        <textarea id="message" name="message" rows="5" cols="10"></textarea>
-                        <br>
-                        <!--submit button-->
-                        <div class="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label class="btn btn-secondary active">
-                                <input type="radio" name="options" id="option1" autocomplete="off" checked> Submit
-                            </label>
-                        </div>
-                    </form>
+                <!-- social media spans all the way across on mobile, 4 columns for larger devices-->
+                <div class="col-12 col-sm-1">
+                    <div class="social-media-box">
+                        <a class="social-media" href="https://www.linkedin.com/in/griffin-criste-2ba72b148/">LinkedIn|</a>
+                        <a class="social-media" href="https://www.facebook.com/griffin.criste">Facebook|</a>
+                        <a class="social-media" href="https://github.com/Gcriste">Github|</a>
+                    </div>
                 </div>
             </div>
-        </section>
-  <!--closes grid-->
-</div>
+
+
+            <!--closes grid-->
+    </div>
 
 </main>
-        <!--row for footer-->
-        <div class="row">
-
-            <div class="col-12">
-                <footer class="text-center">
-                    Copyright &copy;
-                </footer>
-            </div>
+    <!--row for footer-->
+    <div class="row">
+        <div class="col-12">
+            <footer class="text-center">
+                Copyright &copy;
+            </footer>
         </div>
+    </div>
 
-      
+    </section>
+
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -130,6 +118,10 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 
+
+
 </body>
+
+
 
 </html>

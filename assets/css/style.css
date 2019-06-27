@@ -1,76 +1,118 @@
 
-.mainhead{
-    font-family:"Georgia",Times New Roman,Times,serif;
-    color: #ffffff;
-    background: #65b8bf;
+.mainhead,.secondhead{
+    font-family: 'Mali', cursive;
+    color: 	#f9fafc;
+    background:grey;
     margin-bottom:-5px;
+    border-bottom:2px solid #000000;
 }
 
 .navigation{
-    background:#ffffff;
-    font-family: "Georgia",Times New Roman,Times,serif;
-   color: #777777;
+  font-family: 'Mali', cursive;
+    color: #ead682;
+    border:2px solid black;
+    background:grey;
+    margin: 5px;
+    padding: 5px;
+    border-radius:5px;
+    
    
    
 }
 .social-media{
-    font-family: "Georgia",Times New Roman,Times,serif;
-    color:#777777;
+    font-family: 'Mali', cursive;
+    color:white;
     font-size:24px;
+    border:2px solid black;
+    background:grey;
+    margin: 15px;
+    padding: 5px;
+    border-radius:5px;
 
+}
+
+.social-media-box{
+  
 }
 a:hover{
-    font-style:italic;
-        
-    }
-    
-
-.secondhead{
-    color:#65b8bf;
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-top:10px;
-    
+    font-style:italic;  
 }
+    
 
-p{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-color:#777777;
+
+.paragraph{  
+    font-family: 'Mali', cursive;
+    color:white;
+    border:2px solid black;
+    background:grey;
+  
+    padding: 5px;
+    border-radius:5px;
+    margin-top:30px;
+    text-align:center;
+    font-size:16px;
 
 }
 
 footer{
-    background:#666666;
+    background:#313131;
     text-align:center;
-    border-top:8px solid #65b8bf;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-top:10px;
+    border-top:8px solid #328cc1;
+    font-family: 'Mali', cursive;
+    padding-top:5px;
+    padding-bottom:-10px;
+    margin-top:50px;
     color:#fdfdfd;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+ 
 
 }
 
 .pichead{
     z-index:1;
-    font-family:'Georgia', Times, Times New Roman, serif;
+    font-family: 'Mali', cursive;
     color:#ffffff;
-    background: #65b8bf;
+    background: #328cc1;
     font-size:24px;
     max-width:100%;
     text-align:center;
-    padding: 10px;
+    border:5px solid black;
     
 
 
 }
-img {
+.img-fluid{
     max-width: 100%;
+    border:5px solid black;
+    max-height:60%;
 
   }
   
-form{font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+form{font-family: 'Mali', cursive;
 }
 
 
-body{ background-image: url(gravel.png);
+body{ background-image: url(IMG_1982.jpeg);
+    background-repeat: no-repeat;
+  background-size: cover;
+ position:relative;
+
+  
 }
 
+main{
+    margin-bottom:10px;
+}
+.about-me{
+    font-family: 'Mali', cursive;
+    color: black;
+    border:2px solid black;
+    background:grey;
+    margin: 5px;
+    padding: 5px;
+    border-radius:5px;
+}

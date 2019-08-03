@@ -86,7 +86,7 @@ footer{
 
 }
 .img-fluid{
-    max-width: 100%;
+    max-width: 50%;
     border:5px solid black;
     max-height:60%;
 

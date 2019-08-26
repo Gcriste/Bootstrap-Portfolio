@@ -28,7 +28,15 @@
     border-radius:5px;
 } */
 
+.social{
+    padding:5px;
+    margin:5px;
+}
 
+.social:hover{
+    border:3px solid grey;
+    border-radius:15px;
+}
 a:hover{
    
     font-weight:bold;
@@ -47,9 +55,13 @@ a:hover{
     margin-top:30px;
     text-align:center;
     font-size:16px;
+   
 
 }
 
+img{
+    border-radius:15px;
+}
 .paragraph:hover{
     font-weight:bold;
 
@@ -89,7 +101,7 @@ footer{
 }
 
 
-.img-fluid{
+.portfolio{
     max-width: 50%;
     border:5px solid black;
     max-height:60%;

@@ -1,21 +1,17 @@
-.secondhead{
-    font-family: 'Mali', cursive;
-    color: 	#f9fafc;
-    background:grey;
-    margin-bottom:-5px;
-    border-bottom:2px solid #000000;
+
+.navbar-brand{
+    color:white;
 }
 
 .navigation{
   font-family: 'Mali', cursive;
-    border:2px solid black;
-    background:grey;
     margin: 5px;
     padding: 5px;
     border-radius:5px;
-    
-   
-   
+    color:white;
+}
+.navbar-brand:hover{
+    color:black;
 }
 /* .social-media{
     font-family: 'Mali', cursive;
@@ -41,7 +37,7 @@
 a:hover{
    
     font-weight:bold;
-    font-size:23px;
+   
 }
     
 
@@ -49,29 +45,19 @@ a:hover{
 .paragraph{  
     font-family: 'Mali', cursive;
     color:white;
-    border:2px solid black;
     background:grey;
     padding: 5px;
     border-radius:5px;
     margin-top:30px;
     text-align:center;
     font-size:16px;
-   
 
 }
 
 img{
     border-radius:15px;
 }
-.paragraph:hover{
-    font-weight:bold;
 
-}
-
-.about-me:hover{
-    font-weight:bold;
-    background-color:white;
-}
 
 footer{
     background:#313131;
@@ -137,12 +123,11 @@ body::after {
 main{
     margin-bottom:10px;
 }
-.about-me{
+.about-me-box{
     font-family: 'Mali', cursive;
-    color: black;
-    border:2px solid black;
+    color: white;
     background:grey;
-    margin: 5px;
-    padding: 5px;
+    margin: 15px;
+    padding: 15px;
     border-radius:5px;
 }

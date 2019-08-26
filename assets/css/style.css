@@ -24,6 +24,14 @@
     border-radius:5px;
 } */
 
+.resume-link{
+    color:white;
+    font-weight:bold;
+}
+.resume-link:hover{
+    font-size:20px;
+    color:white;
+}
 .social{
     padding:5px;
     margin:10px;
@@ -45,12 +53,12 @@ a:hover{
 .paragraph{  
     font-family: 'Mali', cursive;
     color:white;
-    background:grey;
-    padding: 5px;
-    border-radius:5px;
-    margin-top:30px;
+   
+    padding: 15px;
+    border-radius:10px;
+    margin: 15px;
     text-align:center;
-    font-size:16px;
+    font-size:22px;
 
 }
 
@@ -126,8 +134,16 @@ main{
 .about-me-box{
     font-family: 'Mali', cursive;
     color: white;
-    background:grey;
     margin: 15px;
     padding: 15px;
     border-radius:5px;
+    text-align:center;
+}
+
+input, textarea{
+    border-radius:15px;
+}
+
+form{
+    color:white;
 }

@@ -30,12 +30,13 @@
 
 .social{
     padding:5px;
-    margin:5px;
+    margin:10px;
 }
 
 .social:hover{
-    border:3px solid grey;
+    border:3px solid #313131;
     border-radius:15px;
+  
 }
 a:hover{
    

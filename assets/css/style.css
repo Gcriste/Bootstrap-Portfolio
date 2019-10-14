@@ -1,18 +1,19 @@
-
-.navbar-brand{
-    color:white;
+.navbar-brand {
+    color: white;
 }
 
-.navigation{
-  font-family: 'Mali', cursive;
+.navigation {
+    font-family: 'Mali', cursive;
     margin: 5px;
     padding: 5px;
-    border-radius:5px;
-    color:white;
+    border-radius: 5px;
+    color: white;
 }
-.navbar-brand:hover{
-    color:black;
+
+.navbar-brand:hover {
+    color: black;
 }
+
 /* .social-media{
     font-family: 'Mali', cursive;
     color:white;
@@ -24,58 +25,62 @@
     border-radius:5px;
 } */
 
-.resume-link{
-    color:white;
-    font-weight:bold;
-}
-.resume-link:hover{
-    font-size:20px;
-    color:white;
-}
-.social{
-    padding:5px;
-    margin:10px;
+.resume-link {
+    color: white;
+    font-weight: bold;
 }
 
-.social:hover{
-    border:3px solid #313131;
-    border-radius:15px;
-  
+.resume-link:hover {
+    font-size: 20px;
+    color: white;
 }
-a:hover{
-   
-    font-weight:bold;
-   
+
+.social {
+    padding: 5px;
+    margin: 10px;
 }
-    
+
+.social:hover {
+    border: 3px solid #313131;
+    border-radius: 15px;
+
+}
+
+a:hover {
+
+    font-weight: bold;
+
+}
 
 
-.paragraph{  
+
+.paragraph {
     font-family: 'Mali', cursive;
-    color:white;
-   
+    color: white;
+
     padding: 15px;
-    border-radius:10px;
+    border-radius: 10px;
     margin: 15px;
-    text-align:center;
-    font-size:22px;
+    text-align: center;
+    font-size: 22px;
 
 }
 
-img{
-    border-radius:15px;
+img {
+    border-radius: 15px;
+    box-shadow: 0 6px 12px #999, 0 6px 12px #999;
 }
 
 
-footer{
-    background:#313131;
-    text-align:center;
-    border-top:8px solid #328cc1;
+footer {
+    background: #313131;
+    text-align: center;
+    border-top: 8px solid #328cc1;
     font-family: 'Mali', cursive;
-    padding-top:10px;
-    padding-bottom:10px;
-    margin-top:50px;
-    color:#fdfdfd;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 100px;
+    color: #fdfdfd;
     position: fixed;
     right: 0;
     bottom: 0;
@@ -83,40 +88,50 @@ footer{
 
 }
 
-.pichead{
-    z-index:1;
+.pichead {
+    z-index: 1;
     font-family: 'Mali', cursive;
-    color:#ffffff;
+    color: #ffffff;
     background: #328cc1;
-    font-size:24px;
-    max-width:100%;
-    text-align:center;
-    border:5px solid black;
+    font-size: 24px;
+    max-width: 100%;
+    text-align: center;
+    border: 5px solid black;
 
 }
 
+.app-description {
+    font-family: 'Mali', cursive;
+    color: #ffffff;
+    background: #328cc1;
+    font-size: 12px;
+    max-width: 100%;
+    text-align: center;
+    border: 5px solid black;
+}
 
-.portfolio{
+.portfolio {
     max-width: 50%;
-    border:5px solid black;
-    max-height:60%;
+    border: 5px solid black;
+    max-height: 60%;
 
-  }
-  
-form{font-family: 'Mali', cursive;
+}
+
+form {
+    font-family: 'Mali', cursive;
 }
 
 
 
-body{
-    opacity:0.9
+body {
+    opacity: 0.9
 }
 
 body::after {
     content: "";
     display: block;
     position: absolute;
-    z-index: -1;   
+    z-index: -1;
     width: 100%;
     height: 100%;
     background-image: url(spacesix.jpeg);
@@ -125,25 +140,27 @@ body::after {
     left: 0;
     bottom: 0;
     right: 0;
-  }
-
-
-main{
-    margin-bottom:10px;
 }
-.about-me-box{
+
+
+main {
+    margin-bottom: 10px;
+}
+
+.about-me-box {
     font-family: 'Mali', cursive;
     color: white;
     margin: 15px;
     padding: 15px;
-    border-radius:5px;
-    text-align:center;
+    border-radius: 5px;
+    text-align: center;
 }
 
-input, textarea{
-    border-radius:15px;
+input,
+textarea {
+    border-radius: 15px;
 }
 
-form{
-    color:white;
+form {
+    color: white;
 }

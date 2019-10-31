@@ -10,8 +10,6 @@
 <img width="910" alt="Screen Shot 2019-10-31 at 8 53 22 AM" src="https://user-images.githubusercontent.com/49124794/67952930-1ff3b700-fbbc-11e9-8914-87f1e46d5b41.png">
 <img width="1115" alt="Screen Shot 2019-10-31 at 8 53 34 AM" src="https://user-images.githubusercontent.com/49124794/67952931-1ff3b700-fbbc-11e9-8c71-5e8a8aaf94bb.png">
 <img width="913" alt="Screen Shot 2019-10-31 at 8 53 43 AM" src="https://user-images.githubusercontent.com/49124794/67952932-1ff3b700-fbbc-11e9-8e72-8a22c6350a41.png">
-<img width="1140" alt="Screen Shot 2019-10-31 at 8 53 55 AM" src="https://user-images.githubusercontent.com/49124794/67952933-1ff3b700-fbbc-11e9-8bf3-3e8ceb39013c.png">
-<img width="58" alt="Screen Shot 2019-10-31 at 8 54 05 AM" src="https://user-images.githubusercontent.com/49124794/67952934-1ff3b700-fbbc-11e9-897c-a454d76fb511.png">
 
 ### Technologies Used: HTML, CSS, Bootstrap, Javscript
 

@@ -1,4 +1,4 @@
-# Bootstrap-Portfolio
+# My Portfolio
 
 ### Deployable Link: https://gcriste.github.io/Griffin-Criste-Portfolio/
 

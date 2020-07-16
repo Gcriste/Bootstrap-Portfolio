@@ -1,4 +1,4 @@
-# Portfolio
+# Griffin's Portfolio
 
 ### Deployable Link: https://gcriste.github.io/Griffin-Criste-Portfolio/
 
